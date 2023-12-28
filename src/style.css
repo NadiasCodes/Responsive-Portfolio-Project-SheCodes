@@ -103,7 +103,18 @@ h2 {
 }
 
 @media (max-width: 992px) {
-  .name {
+  .homepage h1 {
+    font-size: 58px;
+  }
+
+  .homepage h2 {
     font-size: 20px;
+  }
+  #header {
+    font-size: 24px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
   }
 }
