@@ -9,6 +9,13 @@
 body {
   font-family: var(--default-font-family);
 }
+
+h2 {
+  font-size: 64px;
+  font-weight: 700;
+  font-family: var(--Playfair);
+  color: var(--primary-color);
+}
 .homepage {
   background-color: #efefef;
   text-align: center;
@@ -52,4 +59,51 @@ body {
   background-color: #efefef;
   border: 1px solid black;
   color: black;
+}
+
+#header {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 100px 0;
+}
+
+.container p {
+  color: rgba(39, 33, 66, 0.7);
+
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.btn-branding-outline {
+  padding: 15px 30px;
+  border-radius: 4px;
+  line-height: 27px;
+  font-size: 17px;
+  font-weight: normal;
+  margin: 20px 0;
+  width: 200px;
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  text-decoration: none;
+  transition: all 500ms ease-in-out;
+  line-height: 7;
+}
+.btn-branding-outline:hover {
+  background-color: black;
+  color: var(--primary-bg-color);
+}
+.project-description {
+  padding: 90px 50px;
+}
+
+@media (max-width: 992px) {
+  .name {
+    font-size: 10px;
+  }
 }
