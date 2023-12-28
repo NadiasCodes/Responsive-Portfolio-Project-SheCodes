@@ -117,4 +117,7 @@ h2 {
     padding: 0;
     text-align: center;
   }
+  .homepage {
+    padding: 80px 20px;
+  }
 }
