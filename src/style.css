@@ -16,6 +16,17 @@ h2 {
   font-family: var(--Playfair);
   color: var(--primary-color);
 }
+
+p {
+  color: rgba(39, 33, 66, 0.7);
+
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
 .homepage {
   background-color: #efefef;
   text-align: center;
@@ -42,6 +53,19 @@ h2 {
   color: var(--secondary-color);
 }
 
+.about-section h1 {
+  font-family: var(--Playfair);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: normal;
+}
+.about-section h2 {
+  color: var(--secondary-color);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+}
+
 .btn-branding {
   background-color: black;
   color: white;
@@ -51,7 +75,7 @@ h2 {
   font-size: 17px;
   font-weight: normal;
   margin: 20px 0;
-  width: 200px;
+
   transition: all 500ms ease-in-out;
 }
 
@@ -69,16 +93,6 @@ h2 {
   margin: 100px 0;
 }
 
-.container p {
-  color: rgba(39, 33, 66, 0.7);
-
-  font-family: Poppins;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 30px;
-}
-
 .btn-branding-outline {
   padding: 15px 30px;
   border-radius: 4px;
@@ -86,7 +100,6 @@ h2 {
   font-size: 17px;
   font-weight: normal;
   margin: 20px 0;
-  width: 200px;
   background-color: white;
   border: 1px solid black;
   color: black;
