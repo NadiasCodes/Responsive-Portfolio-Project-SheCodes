@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <title>Document</title>
+    <title>About the developer | Nadia Bouli</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -31,6 +31,25 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="src/logo.png"
+            class="logo d-none d-md-block"
+            alt="Nadia Boulic - logo"
+          />
+        </a>
+        <ul>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li class="active">
+            <a href="/about.html" title="About Nadia">About</a>
+          </li>
+          <li><a href="/work.html" title="Nadia's Work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Nadia">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -43,7 +62,7 @@
               to master the art of coding with the ultimate goal to craft
               intuitive experiences as a front-end developer.
             </p>
-            <a href="#" class="btn btn-branding">View my projects</a>
+            <a href="/work.html" class="btn btn-branding">View my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
@@ -55,6 +74,55 @@ https://s3.amazonaws.com/shecodesio-production/uploads/files/000/108/580/origina
           />
         </div>
       </div>
+       <footer>
+        <div class="contact-box d-flex justify-content-between mb-5">
+          <div>
+            <h3>Work Inquiry</h3>
+            <p>Let's work together</p>
+          </div>
+          <div>
+            <a href="/contact.html" class="btn btn-branding">Contact Me</a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a href="mailto:de.Nadia@outlook.com" class="email-link"
+            >de.Nadia@outlook.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center mb-5">
+          <a
+            href="https://www.instagram.com/armorofpetals_/"
+            target="_blank"
+            title="Instagram Profile"
+            ><i class="fa-brands fa-instagram" style="color: #000000"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/nadia-bouli/"
+            target="_blank"
+            title="Linkedin Profile"
+            ><i class="fa-brands fa-linkedin-in" style="color: #000000"></i
+          ></a>
+          <a
+            href="https://github.com/NadiasCodes"
+            target="_blank"
+            title="GitHub Profile"
+          >
+            <i class="fa-brands fa-github" style="color: #000000"></i
+          ></a>
+        </div>
+        <p class="text-center mt-4">
+          This project was coded with HTML,CSS & Bootstrap by
+          <a href="https://www.linkedin.com/in/nadia-bouli/" target="_blank"
+            >Nadia Bouli</a
+          >, is open sourced on
+          <a href="https://github.com/NadiasCodes" target="_blank">GitHub</a> &
+          hosted on
+          <a href="https://my-portofolio-project.vercel.app/" target="_blank"
+            >Vercel</a
+          >
+        </p>
+      </footer>
     </div>
+    
   </body>
 </html>
